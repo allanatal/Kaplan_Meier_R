@@ -62,7 +62,7 @@ ggsurvplot(fit,
            #linetype = "strata", # Change line type by groups, if you wish
            #break.time.by = 5, # break time axis by 5.
            xlab = "Time (months)", ylab = "Progression-Free Survival", #label the axis as you wish
-           palette="jco",
+           palette="jco", # "npg", "aaas", "lancet", "jco", "ucscgb", "uchicago", "simpsons" and "rickandmorty"
            title="Progression-Free Survival 1", font.title = c(16, "bold", "darkblue"), #lable the title as you wish.
 )
 #Information you might need:
